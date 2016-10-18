@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.poc.pb.spring.microservice.proto;
+option java_package = "com.poc.pb.prtoco.src";
+option java_outer_classname = "EmployeeProto";
+
+message Employee {
+  int32 id = 1;
+  string first_name = 2;
+  string second_name = 3;
+  
+}
